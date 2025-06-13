@@ -1,0 +1,53 @@
+[
+  {
+    "id": "activity_standalone_1",
+    "tripId": "trip_1",
+    "name": "Montmartre Art Walk",
+    "type": "attraction",
+    "startTime": "10:00",
+    "duration": 120,
+    "cost": 15,
+    "location": {
+      "address": "Montmartre, Paris",
+      "lat": 48.8867,
+      "lng": 2.3431
+    },
+    "description": "Explore the artistic quarter of Paris",
+    "completed": false,
+    "createdAt": "2024-06-01T10:00:00Z"
+  },
+  {
+    "id": "activity_standalone_2",
+    "tripId": "trip_2",
+    "name": "Cherry Blossom Viewing",
+    "type": "attraction",
+    "startTime": "08:00",
+    "duration": 180,
+    "cost": 0,
+    "location": {
+      "address": "Ueno Park, Tokyo",
+      "lat": 35.7152,
+      "lng": 139.7739
+    },
+    "description": "Hanami in Tokyo's famous park",
+    "completed": true,
+    "createdAt": "2024-04-01T08:00:00Z"
+  },
+  {
+    "id": "activity_standalone_3",
+    "tripId": "trip_1",
+    "name": "Cooking Class",
+    "type": "attraction",
+    "startTime": "15:00",
+    "duration": 180,
+    "cost": 85,
+    "location": {
+      "address": "Le Cordon Bleu, Paris",
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "description": "Learn to cook classic French dishes",
+    "completed": false,
+    "createdAt": "2024-06-01T15:00:00Z"
+  }
+]

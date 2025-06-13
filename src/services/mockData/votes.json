@@ -1,0 +1,61 @@
+[
+  {
+    "id": "vote_1",
+    "tripId": "trip_3",
+    "title": "Which restaurant should we try for our first dinner?",
+    "options": ["Bamboo Restaurant", "Warung Babi Guling", "Locavore", "Mozaic Restaurant"],
+    "votes": {
+      "Bamboo Restaurant": 1,
+      "Warung Babi Guling": 2,
+      "Locavore": 3,
+      "Mozaic Restaurant": 1
+    },
+    "userVote": "Locavore",
+    "createdBy": "You",
+    "createdAt": "2024-07-15"
+  },
+  {
+    "id": "vote_2",
+    "tripId": "trip_3",
+    "title": "What time should we do the sunrise yoga session?",
+    "options": ["5:30 AM", "6:00 AM", "6:30 AM", "Skip yoga"],
+    "votes": {
+      "5:30 AM": 0,
+      "6:00 AM": 2,
+      "6:30 AM": 1,
+      "Skip yoga": 0
+    },
+    "userVote": null,
+    "createdBy": "Emily Chen",
+    "createdAt": "2024-07-18"
+  },
+  {
+    "id": "vote_3",
+    "tripId": "trip_1",
+    "title": "Should we take a day trip to Versailles?",
+    "options": ["Yes, full day", "Yes, half day", "No, stay in Paris"],
+    "votes": {
+      "Yes, full day": 1,
+      "Yes, half day": 2,
+      "No, stay in Paris": 0
+    },
+    "userVote": "Yes, half day",
+    "createdBy": "Sarah Wilson",
+    "createdAt": "2024-06-10"
+  },
+  {
+    "id": "vote_4",
+    "tripId": "trip_3",
+    "title": "Which spa treatment should we book for the group?",
+    "options": ["Traditional Balinese Massage", "Hot Stone Therapy", "Aromatherapy Session", "Couples Massage"],
+    "votes": {
+      "Traditional Balinese Massage": 3,
+      "Hot Stone Therapy": 1,
+      "Aromatherapy Session": 2,
+      "Couples Massage": 1
+    },
+    "userVote": null,
+    "createdBy": "Mike Johnson",
+    "createdAt": "2024-07-20"
+  }
+]

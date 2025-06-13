@@ -1,0 +1,14 @@
+{
+  "id": "user1",
+  "name": "Alex Thompson",
+  "email": "alex.thompson@example.com",
+  "phone": "+1 (555) 123-4567",
+  "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+  "joinedAt": "2024-01-15T10:30:00Z",
+  "location": "San Francisco, CA",
+  "verified": true,
+  "totalTrips": 8,
+  "totalSpent": 18500,
+  "preferredCurrency": "USD",
+  "timezone": "America/Los_Angeles"
+}

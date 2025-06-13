@@ -1,0 +1,115 @@
+[
+  {
+    "id": "search_1",
+    "name": "Luxury Downtown Hotel",
+    "type": "hotel",
+    "description": "5-star hotel in the heart of the city with spa and rooftop dining",
+    "location": "Downtown District",
+    "price": 285,
+    "originalPrice": 320,
+    "rating": 4.8,
+    "provider": "Booking.com",
+    "distance": 0.5
+  },
+  {
+    "id": "search_2",
+    "name": "Direct Flight to London",
+    "type": "flight",
+    "description": "Non-stop flight with premium airline, includes meal and entertainment",
+    "location": "Heathrow Airport",
+    "price": 650,
+    "rating": 4.5,
+    "provider": "Expedia",
+    "distance": null
+  },
+  {
+    "id": "search_3",
+    "name": "Historic City Walking Tour",
+    "type": "activity",
+    "description": "3-hour guided tour covering major landmarks and hidden gems",
+    "location": "Historic Quarter",
+    "price": 45,
+    "rating": 4.9,
+    "provider": "Viator",
+    "distance": 1.2
+  },
+  {
+    "id": "search_4",
+    "name": "Michelin Star Restaurant",
+    "type": "restaurant",
+    "description": "Award-winning cuisine with tasting menu and wine pairing",
+    "location": "Arts District",
+    "price": 165,
+    "originalPrice": 185,
+    "rating": 4.7,
+    "provider": "OpenTable",
+    "distance": 2.1
+  },
+  {
+    "id": "search_5",
+    "name": "Budget Backpacker Hostel",
+    "type": "hotel",
+    "description": "Clean, safe accommodation with shared facilities and common areas",
+    "location": "Student Quarter",
+    "price": 35,
+    "rating": 4.2,
+    "provider": "Hostelworld",
+    "distance": 1.8
+  },
+  {
+    "id": "search_6",
+    "name": "Scenic Helicopter Tour",
+    "type": "activity",
+    "description": "45-minute aerial tour showcasing city skyline and coastline",
+    "location": "City Airport",
+    "price": 250,
+    "rating": 4.6,
+    "provider": "GetYourGuide",
+    "distance": 5.2
+  },
+  {
+    "id": "search_7",
+    "name": "Traditional Local Cuisine",
+    "type": "restaurant",
+    "description": "Family-run restaurant serving authentic regional dishes",
+    "location": "Old Town",
+    "price": 35,
+    "rating": 4.4,
+    "provider": "TripAdvisor",
+    "distance": 0.8
+  },
+  {
+    "id": "search_8",
+    "name": "Airport Express Train",
+    "type": "flight",
+    "description": "Fast rail connection between city center and airport",
+    "location": "Central Station",
+    "price": 15,
+    "rating": 4.3,
+    "provider": "Rome2Rio",
+    "distance": 0.3
+  },
+  {
+    "id": "search_9",
+    "name": "Art Museum & Gallery Pass",
+    "type": "activity",
+    "description": "3-day pass covering 15+ museums and cultural sites",
+    "location": "Museum District",
+    "price": 85,
+    "originalPrice": 120,
+    "rating": 4.8,
+    "provider": "CityPass",
+    "distance": 1.5
+  },
+  {
+    "id": "search_10",
+    "name": "Boutique Riverside Hotel",
+    "type": "hotel",
+    "description": "Charming hotel with river views and continental breakfast",
+    "location": "Riverside",
+    "price": 145,
+    "rating": 4.6,
+    "provider": "Hotels.com",
+    "distance": 2.3
+  }
+]

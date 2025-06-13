@@ -1,0 +1,158 @@
+[
+  {
+    "id": "trip_1",
+    "name": "European Adventure",
+    "startDate": "2024-06-15",
+    "endDate": "2024-06-25",
+    "dateRange": "Jun 15 - Jun 25, 2024",
+    "budget": 3500,
+    "spent": 2850,
+    "currency": "USD",
+    "status": "active",
+    "destinations": ["Paris", "Rome", "Barcelona"],
+    "travelStyle": "balanced",
+    "interests": ["culture", "food", "photography"],
+    "groupSize": 2,
+    "members": [
+      {
+        "id": "user1",
+        "name": "You",
+        "email": "you@example.com",
+        "role": "organizer"
+      },
+      {
+        "id": "user2",
+        "name": "Sarah Wilson",
+        "email": "sarah@example.com",
+        "role": "member"
+      }
+    ],
+    "createdAt": "2024-05-01T10:00:00Z"
+  },
+  {
+    "id": "trip_2",
+    "name": "Tokyo Cherry Blossom",
+    "startDate": "2024-04-10",
+    "endDate": "2024-04-17",
+    "dateRange": "Apr 10 - Apr 17, 2024",
+    "budget": 2800,
+    "spent": 2650,
+    "currency": "USD",
+    "status": "completed",
+    "destinations": ["Tokyo", "Kyoto"],
+    "travelStyle": "cultural",
+    "interests": ["culture", "nature", "photography"],
+    "groupSize": 1,
+    "members": [
+      {
+        "id": "user1",
+        "name": "You",
+        "email": "you@example.com",
+        "role": "organizer"
+      }
+    ],
+    "createdAt": "2024-03-01T09:00:00Z"
+  },
+  {
+    "id": "trip_3",
+    "name": "Bali Wellness Retreat",
+    "startDate": "2024-08-20",
+    "endDate": "2024-08-30",
+    "dateRange": "Aug 20 - Aug 30, 2024",
+    "budget": 2200,
+    "spent": 0,
+    "currency": "USD",
+    "status": "upcoming",
+    "destinations": ["Ubud", "Canggu"],
+    "travelStyle": "relaxation",
+    "interests": ["relaxation", "nature", "food"],
+    "groupSize": 4,
+    "members": [
+      {
+        "id": "user1",
+        "name": "You",
+        "email": "you@example.com",
+        "role": "organizer"
+      },
+      {
+        "id": "user3",
+        "name": "Mike Johnson",
+        "email": "mike@example.com",
+        "role": "member"
+      },
+      {
+        "id": "user4",
+        "name": "Emily Chen",
+        "email": "emily@example.com",
+        "role": "member"
+      },
+      {
+        "id": "user5",
+        "name": "David Lee",
+        "email": "david@example.com",
+        "role": "member"
+      }
+    ],
+    "createdAt": "2024-07-01T15:30:00Z"
+  },
+  {
+    "id": "trip_4",
+    "name": "New York Business Trip",
+    "startDate": "2024-07-08",
+    "endDate": "2024-07-12",
+    "dateRange": "Jul 8 - Jul 12, 2024",
+    "budget": 1800,
+    "spent": 0,
+    "currency": "USD",
+    "status": "upcoming",
+    "destinations": ["New York City"],
+    "travelStyle": "luxury",
+    "interests": ["culture", "dining", "shopping"],
+    "groupSize": 1,
+    "members": [
+      {
+        "id": "user1",
+        "name": "You",
+        "email": "you@example.com",
+        "role": "organizer"
+      }
+    ],
+    "createdAt": "2024-06-01T11:15:00Z"
+  },
+  {
+    "id": "trip_5",
+    "name": "Iceland Northern Lights",
+    "startDate": "2024-02-15",
+    "endDate": "2024-02-22",
+    "dateRange": "Feb 15 - Feb 22, 2024",
+    "budget": 3200,
+    "spent": 3180,
+    "currency": "USD",
+    "status": "completed",
+    "destinations": ["Reykjavik", "Blue Lagoon", "Golden Circle"],
+    "travelStyle": "adventure",
+    "interests": ["nature", "adventure", "photography"],
+    "groupSize": 3,
+    "members": [
+      {
+        "id": "user1",
+        "name": "You",
+        "email": "you@example.com",
+        "role": "organizer"
+      },
+      {
+        "id": "user2",
+        "name": "Sarah Wilson",
+        "email": "sarah@example.com",
+        "role": "member"
+      },
+      {
+        "id": "user6",
+        "name": "Alex Thompson",
+        "email": "alex@example.com",
+        "role": "member"
+      }
+    ],
+    "createdAt": "2024-01-01T08:00:00Z"
+  }
+]

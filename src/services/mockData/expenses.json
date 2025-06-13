@@ -1,0 +1,82 @@
+[
+  {
+    "id": "expense_1",
+    "tripId": "trip_1",
+    "amount": 85.50,
+    "category": "dining",
+    "description": "Dinner at Le Comptoir du Relais",
+    "date": "2024-06-15",
+    "paidBy": {
+      "id": "user1",
+      "name": "You"
+    },
+    "splitWith": [
+      {
+        "id": "user2",
+        "name": "Sarah Wilson"
+      }
+    ],
+    "createdAt": "2024-06-15T19:30:00Z"
+  },
+  {
+    "id": "expense_2",
+    "tripId": "trip_1",
+    "amount": 25.00,
+    "category": "activities",
+    "description": "Eiffel Tower tickets",
+    "date": "2024-06-16",
+    "paidBy": {
+      "id": "user1",
+      "name": "You"
+    },
+    "splitWith": [],
+    "createdAt": "2024-06-16T09:00:00Z"
+  },
+  {
+    "id": "expense_3",
+    "tripId": "trip_1",
+    "amount": 35.00,
+    "category": "transport",
+    "description": "Taxi to airport",
+    "date": "2024-06-15",
+    "paidBy": {
+      "id": "user2",
+      "name": "Sarah Wilson"
+    },
+    "splitWith": [
+      {
+        "id": "user1",
+        "name": "You"
+      }
+    ],
+    "createdAt": "2024-06-15T14:20:00Z"
+  },
+  {
+    "id": "expense_4",
+    "tripId": "trip_2",
+    "amount": 125.00,
+    "category": "accommodation",
+    "description": "Tokyo Hotel - 2 nights",
+    "date": "2024-04-10",
+    "paidBy": {
+      "id": "user1",
+      "name": "You"
+    },
+    "splitWith": [],
+    "createdAt": "2024-04-10T16:00:00Z"
+  },
+  {
+    "id": "expense_5",
+    "tripId": "trip_1",
+    "amount": 45.00,
+    "category": "shopping",
+    "description": "Souvenirs from Champs-Élysées",
+    "date": "2024-06-17",
+    "paidBy": {
+      "id": "user1",
+      "name": "You"
+    },
+    "splitWith": [],
+    "createdAt": "2024-06-17T16:45:00Z"
+  }
+]

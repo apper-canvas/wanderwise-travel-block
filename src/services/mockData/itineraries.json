@@ -1,0 +1,174 @@
+[
+  {
+    "id": "itinerary_1",
+    "tripId": "trip_1",
+    "status": "active",
+    "totalCost": 2850,
+    "days": [
+      {
+        "date": "2024-06-15",
+        "description": "Arrival in Paris - City Introduction",
+        "estimatedCost": 285,
+        "activities": [
+          {
+            "id": "activity_1_1",
+            "name": "Flight to Paris",
+            "type": "flight",
+            "startTime": "08:00",
+            "duration": 480,
+            "cost": 650,
+            "location": {
+              "address": "Charles de Gaulle Airport",
+              "lat": 49.0097,
+              "lng": 2.5479
+            },
+            "description": "Direct flight from New York to Paris",
+            "completed": true
+          },
+          {
+            "id": "activity_1_2",
+            "name": "Hotel Le Marais Check-in",
+            "type": "hotel",
+            "startTime": "16:00",
+            "duration": 30,
+            "cost": 0,
+            "location": {
+              "address": "Le Marais District, Paris",
+              "lat": 48.8566,
+              "lng": 2.3522
+            },
+            "description": "Boutique hotel in historic Le Marais",
+            "completed": true
+          },
+          {
+            "id": "activity_1_3",
+            "name": "Seine River Cruise",
+            "type": "attraction",
+            "startTime": "18:30",
+            "duration": 90,
+            "cost": 35,
+            "location": {
+              "address": "Seine River, Paris",
+              "lat": 48.8566,
+              "lng": 2.3522
+            },
+            "description": "Evening cruise with dinner included",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "date": "2024-06-16",
+        "description": "Paris Landmarks and Culture",
+        "estimatedCost": 420,
+        "activities": [
+          {
+            "id": "activity_1_4",
+            "name": "Eiffel Tower Visit",
+            "type": "attraction",
+            "startTime": "09:00",
+            "duration": 120,
+            "cost": 25,
+            "location": {
+              "address": "Champ de Mars, Paris",
+              "lat": 48.8584,
+              "lng": 2.2945
+            },
+            "description": "Skip-the-line tickets to the top",
+            "completed": false
+          },
+          {
+            "id": "activity_1_5",
+            "name": "Lunch at Café de Flore",
+            "type": "dining",
+            "startTime": "12:30",
+            "duration": 90,
+            "cost": 45,
+            "location": {
+              "address": "Saint-Germain-des-Prés, Paris",
+              "lat": 48.8542,
+              "lng": 2.3320
+            },
+            "description": "Historic Parisian café experience",
+            "completed": false
+          },
+          {
+            "id": "activity_1_6",
+            "name": "Louvre Museum",
+            "type": "attraction",
+            "startTime": "14:30",
+            "duration": 180,
+            "cost": 17,
+            "location": {
+              "address": "Rue de Rivoli, Paris",
+              "lat": 48.8606,
+              "lng": 2.3376
+            },
+            "description": "World's largest art museum",
+            "completed": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "itinerary_2",
+    "tripId": "trip_2",
+    "status": "completed",
+    "totalCost": 2650,
+    "days": [
+      {
+        "date": "2024-04-10",
+        "description": "Tokyo Arrival and Shibuya Exploration",
+        "estimatedCost": 380,
+        "activities": [
+          {
+            "id": "activity_2_1",
+            "name": "Narita Airport Arrival",
+            "type": "flight",
+            "startTime": "14:30",
+            "duration": 60,
+            "cost": 0,
+            "location": {
+              "address": "Narita International Airport",
+              "lat": 35.7720,
+              "lng": 140.3929
+            },
+            "description": "Landing in Tokyo",
+            "completed": true
+          },
+          {
+            "id": "activity_2_2",
+            "name": "Shibuya Crossing Experience",
+            "type": "attraction",
+            "startTime": "17:00",
+            "duration": 60,
+            "cost": 0,
+            "location": {
+              "address": "Shibuya Crossing, Tokyo",
+              "lat": 35.6598,
+              "lng": 139.7006
+            },
+            "description": "World's busiest pedestrian crossing",
+            "completed": true
+          },
+          {
+            "id": "activity_2_3",
+            "name": "Authentic Ramen Dinner",
+            "type": "dining",
+            "startTime": "19:00",
+            "duration": 60,
+            "cost": 25,
+            "location": {
+              "address": "Shibuya, Tokyo",
+              "lat": 35.6598,
+              "lng": 139.7006
+            },
+            "description": "Traditional tonkotsu ramen",
+            "completed": true
+          }
+        ]
+      }
+    ]
+  }
+]
