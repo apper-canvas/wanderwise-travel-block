@@ -1,12 +1,12 @@
-import Home from '../pages/Home'
-import Dashboard from '../pages/Dashboard'
-import PlanTrip from '../pages/PlanTrip'
-import TripDetails from '../pages/TripDetails'
-import Budget from '../pages/Budget'
-import Search from '../pages/Search'
-import Collaborate from '../pages/Collaborate'
-import Profile from '../pages/Profile'
-import NotFound from '../pages/NotFound'
+import HomePage from '@/components/pages/HomePage';
+import DashboardPage from '@/components/pages/DashboardPage';
+import PlanTripPage from '@/components/pages/PlanTripPage';
+import TripDetailsPage from '@/components/pages/TripDetailsPage';
+import BudgetPage from '@/components/pages/BudgetPage';
+import SearchPage from '@/components/pages/SearchPage';
+import CollaboratePage from '@/components/pages/CollaboratePage';
+import ProfilePage from '@/components/pages/ProfilePage';
+import NotFoundPage from '@/components/pages/NotFoundPage';
 
 export const routes = {
   home: {
@@ -14,7 +14,7 @@ export const routes = {
     label: 'Home',
     path: '/home',
     icon: 'Home',
-    component: Home,
+component: HomePage,
     showInNav: false
   },
   dashboard: {
@@ -22,7 +22,7 @@ export const routes = {
     label: 'Dashboard',
     path: '/dashboard',
     icon: 'LayoutDashboard',
-    component: Dashboard,
+component: DashboardPage,
     showInNav: true
   },
   planTrip: {
@@ -30,7 +30,7 @@ export const routes = {
     label: 'Plan Trip',
     path: '/plan-trip',
     icon: 'MapPin',
-    component: PlanTrip,
+component: PlanTripPage,
     showInNav: true
   },
   tripDetails: {
@@ -38,7 +38,7 @@ export const routes = {
     label: 'Trip Details',
     path: '/trip/:id',
     icon: 'Calendar',
-    component: TripDetails,
+component: TripDetailsPage,
     showInNav: false
   },
   budget: {
@@ -46,7 +46,7 @@ export const routes = {
     label: 'Budget',
     path: '/budget',
     icon: 'DollarSign',
-    component: Budget,
+component: BudgetPage,
     showInNav: true
   },
   search: {
@@ -54,7 +54,7 @@ export const routes = {
     label: 'Search',
     path: '/search',
     icon: 'Search',
-    component: Search,
+component: SearchPage,
     showInNav: false
   },
   collaborate: {
@@ -62,7 +62,7 @@ export const routes = {
     label: 'Collaborate',
     path: '/collaborate',
     icon: 'Users',
-    component: Collaborate,
+component: CollaboratePage,
     showInNav: true
   },
   profile: {
@@ -70,7 +70,7 @@ export const routes = {
     label: 'Profile',
     path: '/profile',
     icon: 'User',
-    component: Profile,
+component: ProfilePage,
     showInNav: true
   },
   notFound: {
@@ -78,7 +78,7 @@ export const routes = {
     label: 'Not Found',
     path: '/*',
     icon: 'AlertCircle',
-    component: NotFound,
+component: NotFoundPage,
     showInNav: false
   }
 }
